@@ -15,7 +15,7 @@ A teacher is going through a powerpoint and reads a definition off of it out lou
 --- diagram of teacher with a powerpoint reading outload what is on the board.
 
 ### Implications
-
+While regurgitation can be useful for memorizing the basic facts however, it often leads to superficial learning. Students may be able to recall information in the short term but struggle to apply it in new contexts or to think critically about the subject matter.
 
 ## Regurgitation: Surface Learning and Its Limitations
 

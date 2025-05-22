@@ -7,9 +7,9 @@ def slugify(text):
     text = re.sub(r'\s+', '-', text)
     return text
 
-def parse_bibtex(bibfile):
+def parse_bibtex(bib):
     """Parse a simple BibTeX file into a dict."""
-    with open(bibfile, encoding="utf-8") as f:
+    with open(bib, encoding="utf-8") as f:
         content = f.read()
     entries = re.findall(r'@(\w+)\{([^,]+),([\s\S]*?)\n\}', content)
     bib = {}
@@ -120,4 +120,4 @@ def main(md_file, bib_file, output_file):
         f.write(md_text)
 
 if __name__ == "__main__":
-    main("main.md", "references.bib", "compleatedpaper.md")
+    main("paper.md", "references.bib", "finished.md")
